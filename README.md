@@ -7,4 +7,4 @@
  
  设备和属性|BMS SP  | Camp | BMS JBD | VCU
  ---- | ----- | ------  |-------|----
- Gatt表  | [GATT_SP](https://github.com/ovesorg/edge-oasis-ble-lenze/blob/main/Gatt%20for%20devices/GATT_Battery_SP_v1.json) | [GATT_Camp]() |[GATT_JBD]()|[GATT_VCU](https://github.com/ovesorg/edge-oasis-ble-lenze/blob/main/Gatt%20for%20devices/GATT_VCU_v1.json)
+ Gatt表  | [GATT_SP](https://github.com/oves-embedded/Gatt-List/blob/main/Gatt%20for%20devices/GATT_Battery_SP_v1.json) | [GATT_Camp]() |[GATT_JBD]()|[GATT_VCU](https://github.com/oves-embedded/Gatt-List/blob/main/Gatt%20for%20devices/GATT_VCU_v1.json)
