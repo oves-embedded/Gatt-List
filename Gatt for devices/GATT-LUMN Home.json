@@ -1,0 +1,32 @@
+{
+  "_att": {
+    "_flid": "Fleet ID. Factory set. Field override options.",
+    "_frmv": "Firmware Version. Factory set.",
+    "_opid": "OEM Product ID. Factory set.",
+    "_ppid": "PAYG Product ID. Factory set."
+  },
+  "_cmd": {
+    "_pubk": "Public Key / Last Code"
+  },
+  "_dia": {
+    "_pckc": "Pack Current in mA.The charging current is positive, and the discharge current is negative",
+    "_pckv": "Pack Voltage mV",
+    "_vlpt": "port voltage in mV"
+  },
+  "_dta": {
+    "_aeng": "Accumulated Energy Output in Whs",
+    "_bsoh": "Battery State of Health",
+    "_inpp": "Total Input Power mW",
+    "_outp": "Output Power mW",
+    "_peng": "PV Energy Intput in Whs",
+    "_rsoc": "Relative State of Charge",
+    "_usbe": "Accumulated USB Output Energy in Whs",
+    "_usbp": "USB Power mW"
+  },
+  "_sts": {
+    "_ocst": "Product Output State = DISABLED(0) | ENABLED(1)",
+    "_pgst": "PAYG State = PAYG(0) | FREE(1)",
+    "_rcrd": "Remaining Credit Days",
+    "_trhd": "Total Running History Days"
+  }
+}
