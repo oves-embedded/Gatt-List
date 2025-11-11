@@ -1,0 +1,68 @@
+{
+    "att" : {
+       "_comment":"Attributes are immutable once set, typically at factory",
+       "_opid": "OEM Device ID. Factory set.",
+       "_ppid": "PAYG Device ID. Factory set. Field override options.",
+       "_flid": "Fleet ID. Factory set. Field override options.",
+       "_ccid": "Integrate circuit card identity",
+       "_frmV": "Firmware Version. Factory set."
+    },
+    "cmd" : {
+       "_comment":"Commands are values writed by external client.  Also readable",
+       "_pubk": "Public Key / Last Code",
+       "_gstw": "GPRS Sleep Time Window in mins, _gstw > _gctw",
+       "_gctw": "GPRS Connect Time Window in mins, _gctw <  _gstw",
+       "_napn": "GPRS Carrier APN Name",
+       "_swch": "Generic device switch swch = ON | OFF ",
+       "_read": "Last read request of ANY GATT <data> = [opid|...|]",
+       "_rptm": "Set notification request <mode> = [0|1|2|3|4], 0: Auto-Periodic | 1 = Request-Response | 2 = Change-Notification",
+       "_raml": "Specific fields report data at a set frequency",
+       "_hbfq": "Heart Beat frequency in Minutes"
+},
+    "sts" : { 
+        "_comment":"States are discrete state variables.  All Omnivoltaic devices share common state set. Read only",
+        "_sstc":"System Status Code",
+        "_cstc":"Controller Status Code",
+        "_bstc":"Battery Status Code",
+        "_crtm":"created at time",
+        "_udtm":"update at time",
+        "_time":"Device internal timer readout at last communication", 
+       "_plat":"Device GPS Latitude,Positioning of telecom operator base stations",
+       "_plon":"Device GPS Longitude,Positioning of telecom operator base stations",
+       "_gpss":"GPS Signal Strength in db",
+       "_gpfc":"GPRS Connect Failure Counts",
+       "_rcrd":"Remaining Credit Days",
+       "_trhd":"Total Running History Days",
+       "_tpgd":"PAYG Running Days",
+       "_pgst":"PAYG State = PAYG(0) | FREE(1)",
+       "_ocst":"Device Output State = DISABLED(0) | ENABLED(1)",
+       "_rdbk":"Run Days Backup"
+ },
+     "dta" : { 
+        "AC_input":[
+           {
+               "_ronu" :"Phase name",                                            
+               "_inpc": "Phase voltage, Unit: A",
+                "_inpv": "Phase current, Unit: V"                                                
+           }
+        ],
+     "Charge" :{
+               "_chpo": "Charging Power, Unit: Kw",                                                        
+               "_tdec" : "Electricity of the day, Unit: Kwh",                                                    
+               "_moec" : "Electricity for the month, Unit: Kwh"
+                }
+  },
+    "dia" : { 
+      "Charge_slot": [
+           {
+               "_cnum" : "Charging slot number",                                              
+               "_btid" : "Battery number of the current slot charge",                             
+              "_chst" : "Current battery status, Charging: 1,Not charging: 0",
+              "_rsoc" : "Current battery's State of Charge (SOC), Unit: %",                                         
+              "_reca" : "Current battery capacity, Unit: Wh",
+              "_pckv" : "Pack Voltage ,Unit: V",                                        
+              "_pckc" : "Pack Current ,Unit: A"                                   
+           } 
+        ]
+   }
+}
