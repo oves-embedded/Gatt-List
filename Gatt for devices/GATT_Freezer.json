@@ -1,0 +1,58 @@
+{
+  "att": {
+    "_opid": "OEM Device ID. Factory set，Current software version number and release date.",
+    "_ppid": "PAYG Device ID. Factory set. Field override options.",
+    "_flid": "Fleet ID. Factory set. Field override options.",
+    "_frmV": "Firmware Version. Factory set，Current Model, production date, serial number"
+  },
+
+  "cmd": {
+    "_pubk": "Public Key / Last Code",
+    "_gstw": "GPRS Sleep Time Window in mins, _gstw > _gctw",
+    "_gctw": "GPRS Connect Time Window in mins, _gctw < _gstw",
+    "_napn": "GPRS Carrier APN Name",
+    "_read": "Last read request of ANY GATT <data> = [opid|...|]",
+    "_rptm": "Set notification request mode = [0|1|2|3|4], 0",
+    "_hbfq": "Heart Beat Interval Minutes",
+    "stmp": "Set temperature",
+    "sltt": "Setting the lower limit of the temperature value",
+    "sutt": "Setting the upper limit of temperature value",
+    "mrtr": "Minimum running time for refrigeration (Unit: minute)",
+    "dfct": "Defrost cycle (Unit: hour)",
+    "mxdf": "Maximum run time of defrost function (Unit: minute)",
+    "chms": "Cooling/heating mode selection (0: freezing, 1: heating)",
+    "ocos": "On/Off Control Selection (0: off, 1: on)",
+    "lgct": "Lighting Control (0: off, 1: on)",
+    "dfcg": "Defogging Control (0: off, 1: on)"
+  },
+
+  "sts": {
+    "_sstc": "System Status Code",
+    "_crtm": "created at time",
+    "_udtm": "update at time",
+    "_time": "Device internal timer readout at last communication",
+    "_plat": "Device GPS Latitude, Positioning of telecom operator base stations",
+    "_plon": "Device GPS Longitude, Positioning of telecom operator base stations",
+    "_gpss": "GPS Signal Strength in db",
+    "_gpfc": "GPRS Connect Failure Counts",
+    "_rcrd": "Remaining Credit Days",
+    "_trhd": "Total Running History Days",
+    "_tpgd": "PAYG Running Days",
+    "_pgst": "PAYG State (0: PAYG | 1: FREE)",
+    "_ocst": "Device Output State (0: DISABLED | 1: ENABLED)"
+  },
+
+  "dta": {
+    "_tfzr":  "The temperature of the freezer",
+    "_dfst":  "Defrosting temperature",
+    "cdst":  "Condensing sensor temperature",
+    "_cult": "The upper limit value of the temperature alarm for the cabinet - type freezer",
+    "_chta": "The high-temperature alarm value of the condenser",
+    "_doal":  "Door open alarm",
+    "_ceht":  "Condenser Excessive High Temperature Alarm",
+    "_ltaf":  "Low temperature alarm for the freezer cabinet",
+    "_htaf":  "High temperature alarm for the freezer cabinet",
+    "_csfi":  "Condensation sensor failure",
+    "_fcts":  "Failure of the freezer cabinet temperature sensor"
+  }
+}

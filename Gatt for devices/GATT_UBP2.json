@@ -1,0 +1,80 @@
+{
+  "att": {
+    "_opid": "OEM Device ID. Factory set.",
+    "_ppid": "PAYG Device ID. Factory set. Field override options.",
+    "_flid": "Fleet ID. Factory set. Field override options.",
+    "_frmV": "Firmware Version. Factory set."
+  },
+
+  "cmd": {
+    "_pubk": "Public Key / Last Code",
+    "_gstw": "GPRS Sleep Time Window in mins, _gstw > _gctw",
+    "_gctw": "GPRS Connect Time Window in mins, _gctw < _gstw",
+    "_napn": "GPRS Carrier APN Name",
+    "_swch": "Generic device switch swch = ON | OFF",
+    "_read": "Last read request of ANY GATT <data> = [opid|...|]",
+    "_rptm": "Set notification request <mode> = [0|1|2|3|4], 0: Auto-Periodic | 1: Request-Response | 2: Change-Notification",
+    "_hbfq": "Heart Beat Intervals. Frequency",
+    "_sfid": "Setting the fleet ID",
+    "_aovs": "AC Output Voltage Selection (V)",
+    "_aofs": "Output Frequency Selection (Hz)",
+    "_cbte": "Current battery type",
+    "_aoss": "AC Output Source Selection Priority",
+    "_bcvc": "Battery Constant Voltage Charge Voltage (V)",
+    "_bcvf": "Battery Float Charge Voltage (V)",
+    "_mxcc": "Max Charge Current Setting (A)",
+    "_sacc": "Setting the AC charging current (A)"
+  },
+
+  "sts": {
+    "_time": "Device internal timer readout at last communication",
+    "_slat": "Device GPS Latitude",
+    "_slon": "Device GPS Longitude",
+    "_gpss": "GPS Signal Strength in db",
+    "_gpfc": "GPRS Connect Failure Counts",
+    "_rcrd": "Remaining Credit Days",
+    "_trhd": "Total Running History Days",
+    "_tpgd": "PAYG Running Days",
+    "_pgst": "PAYG State (0: PAYG | 1: FREE)",
+    "_ocst": "Device Output State (0: DISABLED | 1: ENABLED)",
+    "_acos": "AC Output Status",
+    "_accs": "AC Charging Status",
+    "_mpcs": "MPPT charging status"
+  },
+
+  "dta": {
+    "_pviv": "Photovoltaic (PV) Input Voltage - Unit: V",
+    "_pvic": "Photovoltaic (PV) Input Current - Unit: A",
+    "_pvip": "Photovoltaic (PV) Input Power - Unit: W",
+    "_pvie": "Photovoltaic (PV) Cumulative Input Energy - Unit: Wh",
+    "_aciv": "AC Input Voltage - Unit: V",
+    "_acov": "AC Output Voltage - Unit: V",
+    "_acfr": "AC Frequency - Unit: Hz",
+    "_accu": "AC Input/Output Current - Unit: A",
+    "_acip": "AC Input Power - Unit: W",
+    "_acop": "AC Output Power - Unit: W",
+    "_acie": "AC Cumulative Input Energy - Unit: Wh",
+    "_acoe": "AC Cumulative Output Energy - Unit: Wh",
+    "_iite": "Inverter Internal Temperature - Unit: °C",
+    "_pckv": "Pack Voltage - Unit: V",
+    "_pckc": "Pack Current - Unit: A",
+    "_rsoc": "Relative State of Charge",
+    "_rsoh": "State of Health",
+    "_outp": "Output Power - Unit: W",
+    "_fccp": "Full Charge Capacity - Unit: Ah",
+    "_cben": "Current Battery Energy - Unit: Wh",
+    "_rdnt": "Remaining Discharge Time - Unit: 0.1H",
+    "_rcht": "Remaining Charge Time - Unit: 0.1H",
+    "_aeng": "Accumulated Energy Output - Unit: Wh"
+  },
+
+  "dia": {
+  "_cv01":"cv01:0:Cell 01 Voltage mV",
+  "_cv02":"cv02:0:Cell 02 Voltage mV",
+  "_pkt1":"pkt1:1:Pack Temperature-1 Celsius",
+  "_pkt2":"pkt2:1:Pack Temperature-2 Celsius",
+  "_pkt3":"pkt3:1:Pack Temperature-3 Celsius",
+  "_pkt4":"pkt4:1:Pack Temperature-4 Celsius",
+  "_pkt5":"pkt5:1:Pack Temperature-5 Celsius"
+  }
+}

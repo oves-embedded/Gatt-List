@@ -1,0 +1,53 @@
+{
+  "att": {
+    "_opid": "OEM Device ID. Factory set.",
+    "_ppid": "PAYG Device ID. Factory set. Field override options.",
+    "_flid": "Fleet ID. Factory set. Field override options.",
+    "ccid": "Integrate circuit card identity",
+    "_frmv": "Firmware Version. Factory set."
+  },
+
+  "cmd": {
+    "_pubk": "Public Key / Last Code",
+    "_gstw": "GPRS Sleep Time Window in mins, _gstw > _gctw",
+    "_gctw": "GPRS Connect Time Window in mins, _gctw < _gstw",
+    "_napn": "GPRS Carrier APN Name",
+    "_read": "Last read request of ANY GATT <data> = [opid|...|]",
+    "_rptm": "Set notification request mode = [0|1|2|3|4]",
+    "_hbfq": "Heart Beat Interval Minutes",
+    "_fslv": "Fan Speed Level Variable mode = [0|1|2|3|4]",
+    "lslv": "Lighting Setting Level mode = [0|1|2|3|...]",
+    "tslv": "Timer Setting Level mode = [0:off |1:30 |2:60 |3:90 |4:120]",
+    "sats": "Scheduled Activation Start Time mode = [0:off |1:30 |2:60 |3:90 |4:120]"
+  },
+
+  "sts": {
+    "_sstc": "System Status Code",
+    "_crtm": "created at time",
+    "_udtm": "update at time",
+    "_time": "Device internal timer readout at last communication",
+    "_plat": "Device GPS Latitude, Positioning of telecom operator base stations",
+    "_plon": "Device GPS Longitude, Positioning of telecom operator base stations",
+    "_gpss": "GPS Signal Strength in db",
+    "_gpfc": "GPRS Connect Failure Counts",
+    "_rcrd": "Remaining Credit Days",
+    "_trhd": "Total Running History Days",
+    "_tpgd": "PAYG Running Days",
+    "_pgst": "PAYG State = PAYG(0) | FREE(1)",
+    "_ocst": "Device Output State = DISABLED(0) | ENABLED(1)"
+  },
+
+  "dta": {
+    "pckv": "Pack Voltage mV",
+    "pckc": "Pack Current in mA. The charging current is negative, and the discharge current is positive",
+    "rsoc": "Relative State of Charge, Percentage of fccp",
+    "outp": "Output Power W, the discharge current * pckv",
+    "batp": "Battery Net Charging Power W, the pckv * pckc",
+    "inpp": "Total Input Power W, the charge current * pckv",
+    "aeng": "Accumulated Energy Output in Whs",
+    "cucv": "Cumulative charging volume, 0.1Wh",
+    "adus": "Accumulated discharge of the usb, 0.1Wh",
+    "ccst": "Current Charging Status mode = [0:Uncharged |1:Charging |2:Fully charged]",
+    "fmsv": "Fan MCU Software Version"
+  }
+}
